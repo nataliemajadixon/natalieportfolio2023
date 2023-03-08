@@ -23,7 +23,7 @@
 }
 
 .namehome{
-    color:black;
+    color:white;
     
 
 }
@@ -104,7 +104,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: black;
+    color: white;
   }
 
   .footer {
@@ -118,6 +118,8 @@
     justify-content: center;
     
   }
+
+
 
   .homeimg{
     margin-left: auto;
@@ -153,7 +155,7 @@
   }
 
   .primary-text{
-    color: black;
+    color: white;
     font-family: 'Alata', sans-serif;
     font-size: 27px;
   }
@@ -262,6 +264,7 @@
   .worksheader{
     text-align: center;
     padding-bottom: 50px;
+    
   }
  
 

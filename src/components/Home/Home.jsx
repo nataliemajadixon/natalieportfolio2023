@@ -31,7 +31,7 @@ const Home = () => {
                 
               </div>
             <div className='profile-details-name'>
-              <span className='primary-text'>
+              <span className='primary-text' >
                 {" "} 
                 Hello, I'm <span className='highlighted-text'>Natalie</span>
               </span>
@@ -208,7 +208,9 @@ onInit={(typewriter) => {
        <section>
   <div className='d-flex align-items-center fullvHeight'>
     <div>
-        <h1 className='worksheader'>My Work</h1>
+        <div className='workborder'>
+        <h1 style={{color: "white"}} className='worksheader'>My Work</h1>
+        </div>
        
   <div className='skillsdiv' data-aos="flip-right" data-aos-duration="10000">
 
