@@ -1,0 +1,280 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+
+#video{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: -1;
+}
+
+
+.typewriterhome{
+    font-size: 50px;
+    color: black;
+    vertical-align: middle;
+}
+
+.namehome{
+    color:black;
+    
+
+}
+
+#toptext{
+    font-family: 'Orbitron', sans-serif; 
+    text-align: center;
+    font-size: 60px;
+    color: transparent;
+    
+    background: conic-gradient(
+        #8bcae7 17%,
+        #efe259 12%, #4e9ae7 33%,
+        #ecf446 33%, #ecd24f 55%,
+        #8ca6ed 50%, #5464ec 70%,
+        #5f1ff5 50%, #307ca9 30%,
+        #1678ac 87%
+    );
+    background-size: 40%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: expand-reverse 3s ease forwards;
+}
+#toptext:hover {
+ animation: expand 3s ease forwards;
+}
+@keyframes expand {
+    0% {
+        background-size: 20%;
+        background-position: 0 0;
+    }
+    20% {
+        background-size: 55%;
+        background-position: 0 1em;
+    }
+    100% {
+        background-size: 325%;
+        background-position: -7em -4em;
+    }
+}
+
+@keyframes expand-reverse {
+    0% {
+        background-size: 325%;
+        background-position: -7em -4em;
+    }
+    20% {
+        background-size: 55%;
+        background-position: 0 1em;
+    }
+    100% {
+        background-size: 20%;
+        background-position: 0em 0em;
+    }
+}
+/* end of top text */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  section {
+    height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+  }
+
+  #stick {
+    
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+  }
+
+  .footer {
+    background-color: whitesmoke;
+    color: seagreen;
+  }
+
+  .intro{
+  margin-left: 120px;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .homeimg{
+    margin-left: auto;
+  margin-right: 160px;
+  vertical-align: middle;
+  
+  }
+
+  .profile-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 10%;
+    min-height: fit-content;
+    margin-left: 100px;
+    
+  }
+
+  .profile-details-name{
+    font-size: 24px;
+  }
+
+  .profile-details-role{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+    margin-top: 14px;
+  }
+
+  .profile-details-role h1{
+    font-size: 40px;
+  }
+
+  .primary-text{
+    color: black;
+    font-family: 'Alata', sans-serif;
+    font-size: 27px;
+  }
+
+  .highlighted-text{
+    color: #737CCF
+  }
+
+  .profile-role-tagline {
+    font-size: 19px;
+    margin: 5px
+  }
+
+  .profile-options #hiremebtn{
+    background-image:
+    linear-gradient(115.8221404393721deg, #737CCF 5.736111111111111%,#BCC4EB 96.29166666666666%);
+    box-shadow: 0px 8px 0px 0px #BCC4EB;
+    padding:10px 20px 10px 20px;
+    color: white;
+    font-family: 'Alata', sans-serif;
+    font-size: 18px;
+  }
+
+  .profile-options #hiremebtn:hover{
+    background-color: #BCC4EB;
+   
+    color: white;
+    box-shadow: 0px 0px 0px 0px black;
+
+  }
+
+  .homeimg{
+    display:flex;
+    box-shadow: 6px 6px 6px 6px #E1E5F8;
+  }
+
+  .homeimg:hover {
+    transform: scale(1.02);
+    transition: 1s ease-out;
+  }
+
+  
+  .homeskills{
+    background-color: #E1E5F8;
+    /* padding-top: 40px;
+    padding-left: 60px; */
+    padding: 40px 30px 35px 30px;
+    font-family: 'Alata', sans-serif;
+    
+  }
+  .homeskillstitle{
+    font-size: 30px;
+  }
+
+  .homeskillsbtn{
+    background-color: #737CCF;
+    box-shadow: 0px 8px 0px 0px #BCC4EB;
+   border-radius: 10px;
+   padding: 10px 20px 10px 20px;
+    animation: bouncy 5s infinite linear;
+    background-image:
+    linear-gradient(115.8221404393721deg, #737CCF 5.736111111111111%,#BCC4EB 96.29166666666666%);
+    text-decoration: none;
+    color: white;
+    font-family: 'Alata', sans-serif;
+    font-size: 18px;
+    
+    
+  }
+
+
+  .homeskillsbtn:hover{
+    background-color: #BCC4EB;
+    box-shadow: 0px 0px 0px 0px black;
+  
+    text-decoration: none;
+    
+
+  }
+  a:hover { text-decoration: none; }
+  a:link { text-decoration: none; }
+  a:visited { text-decoration: none; }
+  a:active { text-decoration: none; }
+
+/* .card-container:hover{
+    transform: translateY(-10px)
+} */
+
+/* .cardstyle{
+    transition: .5s;
+  
+}
+  .cardstyle:hover{
+    
+    transform: translateY(-30px)
+
+  }  */
+
+.fullvHeight{
+    min-height: 80vh;
+    /* border: 1px solid black; */
+
+}
+
+  .worksheader{
+    text-align: center;
+    padding-bottom: 50px;
+  }
+ 
+
+  .workbutton{
+    margin-top: 30px;
+    padding:20px;
+    animation: bouncy 5s infinite linear;
+    
+    border-radius: 10px;
+   padding: 15px 20px 15px 20px;
+    
+    background-image:
+    linear-gradient(115.8221404393721deg, #737CCF 5.736111111111111%,#BCC4EB 96.29166666666666%);
+  }
+
+
+  

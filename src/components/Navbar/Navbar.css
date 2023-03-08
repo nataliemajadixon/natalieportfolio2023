@@ -1,0 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Monoton&display=swap');
+
+.navbar-brand{
+    font-size: 60px;
+}
+
+.topnav{
+    background-color: #2218A7;
+font-family: 'Orbitron', sans-serif;
+justify-content: end;
+
+}
+
+.topname{
+    margin-left: 20px;
+    font-family: 'Monoton', cursive;
+  
+}
