@@ -104,7 +104,7 @@ onInit={(typewriter) => {
 
 
   <video loop autoPlay muted id='video'>
-    <source src={require('../../assets/lightmode.mp4')} type='video/mp4' />
+    <source src={require('../../assets/newbg.mp4')} type='video/mp4' />
   </video>
 
 
