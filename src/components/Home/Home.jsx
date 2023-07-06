@@ -273,7 +273,8 @@ onInit={(typewriter) => {
 
     </Row>
 </div>
-<div><button style={{color: "white"}} className='workbutton'>See More Works</button></div>
+<div><button style={{color: "white"}} className='workbutton'>  <a style={{color:"white"}} href='/works'> See More Works</a>
+</button></div>
 </div>
 </div>
    
