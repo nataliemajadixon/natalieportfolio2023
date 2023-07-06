@@ -215,6 +215,22 @@ onInit={(typewriter) => {
   <div className='skillsdiv' data-aos="flip-right" data-aos-duration="10000">
 
        <Row xs={1} md={4} className="g-3">
+
+
+
+       <Col>
+    <Card border="warning" style={{ width: '18rem', height: '18.7rem' }} className='cardstyle'>
+      <Card.Img variant="top" src={require('../../assets/digitalmarketing.png')} alt='Weather app' />
+      <Card.Body>
+        <Card.Title>Marketing Agency</Card.Title>
+        <Card.Text>
+          Created a Digital Marketing Agency website in React displaying different services. Deployed using AWS.
+        </Card.Text>
+       
+      </Card.Body>
+    </Card>
+    </Col>
+
        <Col>
     
     <Card  border="info" style={{ width: '18rem' }} className='cardstyle' >
@@ -258,18 +274,7 @@ onInit={(typewriter) => {
     </Card>
     </Col>
     
-    <Col>
-    <Card border="warning" style={{ width: '18rem' }} className='cardstyle'>
-      <Card.Img variant="top" src={require('../../assets/kobetimeline.png')} alt='Weather app' />
-      <Card.Body>
-        <Card.Title>Kobe Bryant Timeline</Card.Title>
-        <Card.Text>
-          Created a Black Mamba Timeline showing his history over the years using JS, HTML & CSS.
-        </Card.Text>
-       
-      </Card.Body>
-    </Card>
-    </Col>
+   
 
     </Row>
 </div>
